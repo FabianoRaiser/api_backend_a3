@@ -12,6 +12,10 @@ const Product = sequelize.define(
       type: DataTypes.DECIMAL,
       allowNull: false,
     },
+    imageUrl: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
   },
   {
     sequelize,

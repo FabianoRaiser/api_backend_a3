@@ -20,7 +20,6 @@ class OrderController extends Controller {
       let totalPrice = await this.validateProducts(req.body.products);
 
       const order = await Order.create({
-        id: req.body.id,
         CustomerId: req.body.customerId,
         address: req.body.address,
         status: req.body.status,
