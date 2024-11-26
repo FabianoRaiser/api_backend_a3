@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "dev": "node --watch app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Constanze",
@@ -15,5 +16,9 @@
     "pg": "^8.13.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.37.3"
-  }
+  },
+  "contributors": [
+    "Constanze",
+    "Fabiano Raiser"
+  ]
 }

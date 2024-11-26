@@ -18,5 +18,8 @@ router.put("/products/:id", (req, res, next) =>
 router.delete("/products/:id", (req, res, next) =>
   productController.erase(req, res, next)
 );
+router.get("/products/tags/:tag", (req, res, next) =>
+  productController.searchByTag(req, res, next)
+);
 
 module.exports = router;
